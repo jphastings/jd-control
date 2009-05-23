@@ -2,7 +2,6 @@
 #
 # Allows you to start, stop and pause the download queue, add new downloads and
 # tinker with the bandwidth limits of the program.
-require 'yaml'
 require 'extensions'
 require 'rubygems'
 require 'httparty'
