@@ -1,0 +1,2 @@
+= JDownloader Control
+Full documentation is in the form of the rdoc, which is available online at http://projects.kedakai.co.uk/jd-control/
