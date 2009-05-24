@@ -1,6 +1,6 @@
 spec = Gem::Specification.new do |s| 
   s.name = "jd-control"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.author = "JP Hastings-Spital"
   s.email = "jd-control@projects.kedakai.co.uk"
   s.homepage = "http://projects.kedakai.co.uk/jd-control/"
