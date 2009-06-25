@@ -89,14 +89,15 @@ module JDownloader
       end
     end
     alias :package :packages
+    alias :downloads :packages
     
     private
     def parse_packages(string)
       return {} if string.nil?
-      
+      i = -1
       Hash[*Hpricot(string).search("package").collect { |package|
           m = nil
-          [package.attributes['package_id'].to_i, Package.new({
+          [i+=1, Package.new({
             :name => package.attributes['package_name'],
             :id => package.attributes['package_id'].to_i,
             :links => {

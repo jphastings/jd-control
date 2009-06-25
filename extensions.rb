@@ -54,6 +54,7 @@ class ETA < Time
   def to_s
     self.roughly
   end
+  alias :inspect :to_s
   
   # Gives a full textual representation of the time expected time of arrival (Time.rfc2822)
   def eta
